@@ -1,0 +1,61 @@
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .header{
+      background-color: #68cdd5;
+      padding: 0 2%;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-weight: 700;
+      color: white;
+    }
+    .header a{
+      float: left;
+      text-decoration: none;
+    }
+    .header .close{
+      float: right;
+    }
+    .main{
+      background-color: #eff0f4;
+      overflow: hidden;
+      padding: 15px 0;
+    }
+    .number,
+    .password{
+      padding: 10px 80px;
+    }
+    .number {
+      background: white url(Images/phone.png) no-repeat 25px center;
+    }
+    .password {
+      margin-top: 15px;
+      background: white url(Images/lock.png) no-repeat 25px center;
+    }
+    input{
+      outline: none;
+      border: none;
+      width: 99%;
+      height: 42px;
+      padding: 0 10px;
+      border-left: 2px solid #eff0f4;
+    }
+    button{
+      background-color: #68cdd5;
+      height: 50px;
+      width: 100%;
+      font-weight: 700;
+      color: white;
+      font-size: 18px;
+      letter-spacing: 20px;
+      outline: none;
+      border: none;
+    }
+    .footer a{
+      float: right;
+      padding-right: 2%;
+      color: #68cdd5;
+    }
