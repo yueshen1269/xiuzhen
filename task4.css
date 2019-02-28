@@ -1,9 +1,13 @@
 
-    *{
+    * {
       margin: 0;
       padding: 0;
     }
-    .header{
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 96%;
       background-color: #68cdd5;
       padding: 0 2%;
       height: 50px;
@@ -12,20 +16,21 @@
       font-weight: 700;
       color: white;
     }
-    .header a{
+    .header a {
       float: left;
       text-decoration: none;
     }
-    .header .close{
+    .header .close {
       float: right;
     }
-    .main{
+    .main {
       background-color: #eff0f4;
       overflow: hidden;
       padding: 15px 0;
+      margin-top: 50px;
     }
     .number,
-    .password{
+    .password {
       padding: 10px 80px;
     }
     .number {
@@ -35,7 +40,7 @@
       margin-top: 15px;
       background: white url(Images/lock.png) no-repeat 25px center;
     }
-    input{
+    input {
       outline: none;
       border: none;
       width: 99%;
@@ -43,7 +48,7 @@
       padding: 0 10px;
       border-left: 2px solid #eff0f4;
     }
-    button{
+    button {
       background-color: #68cdd5;
       height: 50px;
       width: 100%;
@@ -54,8 +59,9 @@
       outline: none;
       border: none;
     }
-    .footer a{
+    .footer a {
       float: right;
       padding-right: 2%;
       color: #68cdd5;
     }
+  
