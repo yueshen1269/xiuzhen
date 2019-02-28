@@ -1,0 +1,88 @@
+/*全局*/
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+input,
+button {
+	border: none;
+	outline: none;
+}
+
+/*header part*/
+.header {
+	height: 100px;
+	box-sizing: border-box;
+	background-color: #f3f5f7;
+	padding: 29px 160px;
+}
+.header_nav {
+	margin: 0 auto;
+	vertical-align: top;
+	float: left;
+}
+.header_nav>img {
+	vertical-align: top;
+}
+.header_nav>a {
+	display: inline-block;
+	padding: 0 10px;
+	margin-left: 30px;
+	height: 42px;
+	line-height: 42px;
+
+}
+.header_nav>a:hover{
+	border-bottom: 2px solid #00a4ff;
+}
+.header .search input {
+	border: #00a4ff 2px solid;
+	padding-left: 15px;
+	width: 360px;
+	height: 38px;
+	border-right: none;
+	line-height: 42px;
+	float: right;
+}
+.header .search button {
+	width: 50px;
+	height: 42px;
+	background: #00a4ff url(Images/studyOnline/fa-search.png) center center no-repeat;
+	line-height: 42px;
+	float: right;
+
+}
+.header .personal {
+	float: right;
+	line-height: 42px;
+	height: 42px;
+	margin-left: 50px;
+}
+.header .personal .first {
+	float: left;
+	margin: 15px 20px;
+	line-height: 42px;
+}
+.header .personal .photo {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float: left;
+	background: url(Images/studyOnline/photo.png) no-repeat center;
+	margin: 6px 5px;
+
+}
+.header .personal a {
+	float: left;
+}
+
+.abs {
+	position: absolute;
+	/*left: -40px;*/
+	margin: 10px 0 0 -60px;
+}
+
+/*head end*/
