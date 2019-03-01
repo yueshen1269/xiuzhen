@@ -25,6 +25,7 @@
     .header a {
       float: left;
       text-decoration: none;
+      color: white;
     }
     .header .close {
       float: right;
