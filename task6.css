@@ -1,0 +1,245 @@
+/*全局*/
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			margin-bottom: 100px;
+		}
+		.clearfix:before,
+		.clearfix:after {
+			content: " ";
+			display: table;
+		}
+		.clearfix:after {
+			clear: both;
+		}
+		.clearfix {
+			*zoom: 1;
+		}
+
+		ul {
+			list-style: none;
+		}
+		button {
+			outline: none;
+			border: none;
+		}
+		a {
+			text-decoration: none;
+		}
+		/*header start*/
+		.header {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 88px;
+			padding: 10px 5%;
+			box-sizing: border-box;
+			/*background: blue url(Images/sprite.png) no-repeat ;*/
+			background-color: #5fc0cd;
+			z-index: 1;
+		}
+		.choose {
+			border-radius: 10px;
+			font-size: 0;
+			margin: 0 auto;
+			/*display: inline-block;*/
+			width: 40vw;
+			background-color: #55a8b3;
+		}
+		.header button {
+			border-radius: 10px;
+			width: 20vw;
+			height: 68px;
+			font-size: 1rem;
+		}
+		.header .employee {
+			background-color: white;
+			color: #5fc0cd;
+		}
+		.header .employer {
+			background-color: #55a8b3;
+		}
+		.header span {
+			float: right;
+			width: 40px;
+			height: 44px;
+			margin-top: 12px;
+			background: url(Images/sprite.png) no-repeat 0 -37px;
+		}
+		@media screen and (min-width: 320px) {
+            html {font-size: 14px;} 
+		}
+		@media screen and (min-width: 360px) {
+		    html {font-size: 16px;}
+		}
+		 
+		@media screen and (min-width: 400px) {
+		    html {font-size: 18px;}
+		}
+		 
+		@media screen and (min-width: 440px) {
+		    html {font-size: 20px;}
+		}
+		 
+		@media screen and (min-width: 480px) {
+		    html {font-size: 22px;}
+		}
+		 
+		@media screen and (min-width: 640px) {
+		    html {font-size: 28px;}
+		}
+		/*header end*/
+		
+		/*nav start*/
+		.nav {
+			margin-top: 88px;
+			/*padding-left: 5%;*/
+			border-bottom: 1px solid #e1e5e7;
+
+		}
+		.nav>li {
+			float: left;
+			width: 33vw;
+			height: 80px;
+			text-align: center;
+			background: url(Images/task6-1.png) no-repeat 90% center;
+			border-right: 1px solid #e1e5e7;
+		}
+		.nav>li:last-child {
+			border: none;
+		}
+		ul a {
+			display: block;
+			margin: 0 auto;
+			width: 120px;
+			height: 80px;
+			text-align: center;
+			line-height: 80px;
+			color: #999999;
+			font-size: 1rem;
+			/*background-color: white;*/
+		}
+		.drop-down {
+			position: relative;
+		}
+		.drop-down-content {
+			display: none;
+			position: absolute;
+		}
+		.drop-down-content li:hover a{
+			background: rgba(0,0,0,0.5);
+			color: skyblue;
+			/*width: 30vw;*/
+		}
+		.nav .drop-down:hover .drop-down-content {
+			display: block;
+			width: 33vw;
+
+		}
+		/*nav end*/
+		/*main start*/
+		.main .calender {
+			width: 24px;
+			height: 24px;
+			background: url(Images/sprite.png) 0 -110px;
+			vertical-align: middle;
+			display: inline-block;
+		}
+		.main .cross {
+			padding-left: 34px;
+		}
+		.main .location {
+			display: inline-block;
+			width: 24px;
+			height: 22px;
+			background: url(Images/sprite.png) 0 -145px;
+			vertical-align: middle;
+		}
+
+		.main ul>li {
+			padding: 20px 3% ;
+			border-bottom: 1px solid #e1e5e7;
+			line-height: 1.5rem;
+
+		}
+		.main .price{
+			float: right;
+			font-size: 1.2rem;
+			color: #e63b0e;
+		}
+		.main li span {
+			margin-left: 10px;
+			font-size: 1rem;
+			color: #d0d0d0;
+		}
+		.main li .next {
+			width: 17px;
+			height: 33px;
+			float: right;
+			background: url(Images/sprite.png);
+		}
+
+		/*main end*/
+		/*footer start*/
+		.footer {
+			position: fixed;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 100px;
+			background-color: #f8fafb;
+			font-size: 1rem;
+			letter-spacing: 2px;
+		}
+		.footer .home {
+			float: left;
+		}
+		.footer .my {
+			float: right;
+		}
+		.footer .edit {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-top: -47px;
+			margin-left: -47px;
+			height: 94px;
+			width: 94px;
+			border-radius: 50%;
+			background-color: #5fc0cd;
+		}
+		.footer .edit button {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -20px;
+			margin-top: -20px;
+			width: 40px;
+			height: 40px;
+			background: url(Images/sprite.png) 0 -231px no-repeat;
+		}
+		.footer .home {
+			margin-left: 20%;
+			margin-top: 10px;
+			text-align: center;
+		}
+		.footer .home button {
+			/*margin-left: 10%;*/
+			width: 46px;
+			height: 40px;
+			background: url(Images/sprite.png) 0 -181px no-repeat;
+		}
+		.footer .my {
+			margin-right: 20%;
+			margin-top: 10px;
+			text-align: center;
+		}
+		.footer .my button {
+			/*margin-left: 15%;*/
+			width: 42px;
+			height: 41px;
+			background: url(Images/sprite.png) 0 -279px no-repeat;
+		}
