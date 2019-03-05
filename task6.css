@@ -169,6 +169,8 @@
 			float: right;
 			font-size: 1.2rem;
 			color: #e63b0e;
+			line-height: 33px;
+			margin: 0;
 		}
 		.main li span {
 			margin-left: 10px;
