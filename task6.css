@@ -69,9 +69,10 @@
 			margin-top: 12px;
 			background: url(Images/sprite.png) no-repeat 0 -37px;
 		}
-		@media screen and (min-width: 200px) and (max-width: 319px) {
+		@media screen and (min-width: 260px) and (max-width: 319px) {
             html {font-size: 14px;} 
-            .cross {
+            .cross,
+            .place {
             	display: inline-block;
             	width: 90px;
             	overflow: hidden;
